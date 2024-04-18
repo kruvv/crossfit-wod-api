@@ -1,0 +1,18 @@
+{
+  "name": "crossfit-wod-api",
+  "version": "1.0.0",
+  "description": "REST API для тренировочного приложения CrossFit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "kruvv@mail.ru",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
