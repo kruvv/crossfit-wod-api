@@ -1,6 +1,6 @@
 // In src/services/workoutService.js
 
-const Workout = require("../database/Workout");
+const Workout = require("../database/Workout.js");
 const getAllWorkouts = () => {
   const allWorkouts = Workout.getAllWorkouts();
   console.log("service start");

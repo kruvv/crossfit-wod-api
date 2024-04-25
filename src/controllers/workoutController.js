@@ -1,6 +1,6 @@
 // In src/controllers/workoutController.js
 
-const workoutService = require("../services/workoutService");
+const workoutService = require("../services/workoutService.js");
 
 const getAllWorkouts = (req, res) => {
   const allWorkouts = workoutService.getAllWorkouts();
