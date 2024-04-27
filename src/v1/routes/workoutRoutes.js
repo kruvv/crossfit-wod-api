@@ -3,7 +3,7 @@ const express = require("express");
 const workoutController = require("../../controllers/workoutController.js");
 
 const router = express.Router();
-console.log(workoutController.getAllWorkouts)
+// console.log(workoutController.getAllWorkouts)
 router.get("/", workoutController.getAllWorkouts);
 
 router.get("/:workoutId", workoutController.getOneWorkout);
